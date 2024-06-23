@@ -2,6 +2,9 @@ git config -h
 
 posh-git
 
+download CLI, 
+gh auth login  //to log in
+
 
 git config --global user.name "Luong Dang"
 
