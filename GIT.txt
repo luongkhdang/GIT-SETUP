@@ -31,3 +31,30 @@ git commit   //this will open visual to add long description.
 
 
 
+git ls-files
+
+git rm file2.txt *.txt
+
+
+
+
+
+//move and rename
+
+mv file1.txt main.js
+git add file1.txt
+git add main.js
+
+//and 
+
+git mv main.js file1.js
+
+
+
+
+
+//.gitirnore
+
+mkdir logs //for example, log file
+echo hello > logs/dev.log         //the dev.log file is in the folder logs
+echo logs/ .gitignore             // add directory logs/ to .gitignore
