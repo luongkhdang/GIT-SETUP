@@ -1,0 +1,30 @@
+git config -h
+
+posh-git
+
+
+git config --global user.name "Luong Dang"
+
+git config --global user.email luongkhdang@gmail.com
+
+git config --global core.editor "code --wait"
+
+git config --global -e     //open all global editer
+
+git config --global core.autocrlf input
+
+
+
+
+
+git add file1 file2   //proposal
+
+git commit -m "REASON OF CHANGE."
+
+git status
+
+git commit   //this will open visual to add long description.
+
+
+
+
