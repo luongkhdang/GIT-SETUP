@@ -26,6 +26,13 @@ git config --global core.autocrlf input
 
 
 
+git remote add origin 'link'  //add remote
+
+git remote add origin -f 'link'  //fetch the remote
+
+
+
+
 
 
 git add file1 file2   //proposal
@@ -65,7 +72,7 @@ git mv main.js file1.js
 
 mkdir logs //for example, log file
 echo hello > logs/dev.log         //the dev.log file is in the folder logs
-echo logs/ .gitignore             // add directory logs/ to .gitignore
+echo logs/ >> .gitignore             // add directory logs/ to .gitignore
 
 
 
@@ -74,7 +81,7 @@ echo logs/ .gitignore             // add directory logs/ to .gitignore
 
 git rm --cached -r logs/            //setup to add an existing directory to .gitignore
 echo logs/ .gitignore  
-
+echo bin/ >> .gitignore     //add directory bin/ to .gitignore
 
 
 
@@ -112,7 +119,7 @@ git log
 //github
 
 git remote add origin https://github.com/luongkhdang/GIT-SETUP.git //add remote
-git remote -v
+git remote -v  //check remote
 
 git push --set-upstream origin master
 
