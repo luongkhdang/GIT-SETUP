@@ -5,6 +5,14 @@ posh-git
 download CLI, 
 gh auth login  //to log in
 
+npm install touch-cli -g  //touch .gitignore
+
+DIFF TOOLS VSCODE 
+	git config --global diff.tool vscode
+	git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+
+
+
 
 git config --global user.name "Luong Dang"
 
@@ -53,8 +61,71 @@ git mv main.js file1.js
 
 
 
-//.gitirnore
+//.gitignore
 
 mkdir logs //for example, log file
 echo hello > logs/dev.log         //the dev.log file is in the folder logs
 echo logs/ .gitignore             // add directory logs/ to .gitignore
+
+
+
+
+//setup to add an existing directory to .gitignore
+
+git rm --cached -r logs/            //setup to add an existing directory to .gitignore
+echo logs/ .gitignore  
+
+
+
+
+
+
+// status list
+git status -s 
+
+echo sky >> file1.js   // append a new file 
+echo sky > file2.js    // replace
+
+
+
+
+
+
+// summary of staged
+git diff --staged  /// diff between staged and master
+
+git diff    //  diff between dir and staged
+
+git difftool  //this need setup , see top of this page.
+
+git difftool --staged
+
+
+
+
+
+//history
+
+git log
+
+
+//github
+
+git remote add origin https://github.com/luongkhdang/GIT-SETUP.git //add remote
+git remote -v
+
+git push --set-upstream origin master
+
+
+//git branchs
+
+git branch -a
+git fetch
+git status
+
+
+
+
+
+
+
