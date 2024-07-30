@@ -3,9 +3,9 @@
 
 SAMPLE README
 
-# ![WebApp](demo.JPG)
+# ![GitSetup](demo.JPG)
 
-# WebApp
+# GitSetup Repo
 
 <table>
 <tr>
