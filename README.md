@@ -80,9 +80,9 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Team
 
-[![Luong Dang](https://avatars.githubusercontent.com/luongkhdang)](https://github.com/iharsh234)
+[![Luong Dang](https://avatars.githubusercontent.com/luongkhdang?v=2&s=48)](https://github.com/luongkhdang)
 
-[Luong Dang](https://github.com/luongkhdang) |[Quandl](https://www.quandl.com)
+[Luong Dang](https://github.com/luongkhdang) 
 
 ## [License](https://github.com/luongkhdang/theAPPP/blob/master/LICENSE.md)
 
